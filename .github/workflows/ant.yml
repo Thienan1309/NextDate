@@ -28,4 +28,4 @@ jobs:
 
       # 4. Build với Ant
       - name: Build with Ant
-        run: ant -noinput -buildfile build.xml
+        run: ant -noinput -buildfile build.xml jar
