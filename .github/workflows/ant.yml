@@ -22,7 +22,6 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '21'
-          cache: 'ant'
 
       - name: Show Java version
         run: java -version
